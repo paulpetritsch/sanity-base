@@ -16,6 +16,7 @@ import newsletter from '../texts/newsletter'
 import cookie from '../texts/cookie'
 import error from '../texts/error'
 
+
 export const schemaTypes = [
     startseite,
     blockContent,
