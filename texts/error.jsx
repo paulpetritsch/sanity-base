@@ -9,6 +9,11 @@ export default {
     },
     fields: [
         {
+            name: 'title',
+            type: 'localeString',
+            title: 'Title',
+        },
+        {
             name: 'text',
             type: 'localeBlockContent',
             title: 'Text',
@@ -17,6 +22,11 @@ export default {
             name: 'button',
             type: 'localeString',
             title: 'Button Text',
-        }
+        },
+        {
+            name: 'seo_title',
+            type: 'localeString',
+            title: 'Browser Tab Title',
+        },
     ]
 }
