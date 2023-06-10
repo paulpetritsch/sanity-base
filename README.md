@@ -2,4 +2,4 @@
 
 Zusatzpackages:
 
-``npm install react-icon @sanity/color-input get-youtube-id react-lite-youtube-embed``
+``npm install react-icons @sanity/color-input get-youtube-id react-lite-youtube-embed``
