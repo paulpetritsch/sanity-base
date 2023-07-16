@@ -16,6 +16,18 @@ export default {
             title: 'Sonstige Texte',
         },
     ],
+    fieldsets: [
+        {
+            name: 'addresseFieldset',
+            title: 'Addresse',
+            options: { columns: 2 },
+        },
+        {
+            name: 'kontaktFieldset',
+            title: 'Kontaktmöglichkeiten',
+            options: { columns: 2 },
+        },
+    ],
     fields: [
         {
             name: 'title',
@@ -26,63 +38,58 @@ export default {
         },
         {
             name: 'address_name',
-            title: 'Adresse Bezeichnung',
-            description: 'Firmenname/Name',
+            title: 'Firmenname',
+            description: 'Name der Organisation bzw. Addressenbezeichnung',
             type: 'localeString',
-            group: 'kontakt'
+            group: 'kontakt',
         },
         {
             name: 'address_street',
             title: 'Straße',
             type: 'string',
-            group: 'kontakt'
+            group: 'kontakt',
+            fieldset: 'addresseFieldset'
         },
         {
             name: 'address_nr',
             title: 'Hausnummer',
             type: 'string',
-            group: 'kontakt'
+            group: 'kontakt',
+            fieldset: 'addresseFieldset'
         },
         {
             name: 'address_plz',
             title: 'PLZ',
             type: 'string',
-            group: 'kontakt'
+            group: 'kontakt',
+            fieldset: 'addresseFieldset'
         },
         {
             name: 'address_ort',
             title: 'Ort',
             type: 'string',
-            group: 'kontakt'
+            group: 'kontakt',
+            fieldset: 'kontaktFieldset'
         },
         {
             name: 'telefon',
             title: 'Telefonnummer',
             type: 'string',
-            group: 'kontakt'
+            group: 'kontakt',
+            fieldset: 'kontaktFieldset'
         },
         {
             name: 'email',
             title: 'E-Mail',
             type: 'string',
-            group: 'kontakt'
+            group: 'kontakt',
+            fieldset: 'addresseFieldset'
         },
         {
-            name: 'instagram',
-            title: 'Instagram Link',
-            type: 'string',
-            group: 'social',
-        },
-        {
-            name: 'facebook',
-            title: 'Facebook Link',
-            type: 'string',
-            group: 'social',
-        },
-        {
-            name: 'linkedin',
-            title: 'LinkedIn Link',
-            type: 'string',
+            name: 'sociallinks',
+            title: 'Social Media',
+            type: 'array',
+            of: [{type: 'socialMedias'}],
             group: 'social',
         },
         {

@@ -22,12 +22,17 @@ export default {
             name: 'options',
             type: 'array',
             title: 'Options',
-            of: [{type: 'localeString'}]
+            of: [{type: 'cookieOption'}]
         },
         {
-            name: 'button',
+            name: 'button_all',
             type: 'localeString',
-            title: 'Button Text',
+            title: 'Button Alle Akzeptieren Text',
+        },
+        {
+            name: 'button_selection',
+            type: 'localeString',
+            title: 'Button Auswahl Speichern Text',
         }
     ]
 }

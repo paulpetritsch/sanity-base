@@ -20,8 +20,8 @@ export default {
         },
         {
             name: 'button',
-            type: 'localeString',
-            title: 'Button Text',
+            type: 'internalLink',
+            title: 'Button',
         },
         {
             name: 'seo_title',

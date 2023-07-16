@@ -14,9 +14,21 @@ export default {
             title: 'Text',
         },
         {
+            name: 'placeholder',
+            type: 'localeString',
+            title: 'Textfeld Placeholder',
+            description: 'Text, welcher im Textfeld als Default Value steht.'
+        },
+        {
             name: 'button',
             type: 'localeString',
-            title: 'Button Text',
-        }
+            title: 'Abonnieren Button Text',
+        },
+        {
+            name: 'datenschutz',
+            type: 'localeBlockContent',
+            title: 'Datenschutz Text',
+            description: 'Text, welcher auf die Datenschutzrichtlinien hinweist.'
+        },
     ]
 }

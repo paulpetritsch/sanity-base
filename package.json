@@ -15,6 +15,7 @@
     "sanity"
   ],
   "dependencies": {
+    "@sanity/assist": "^1.0.11",
     "@sanity/color-input": "^3.1.0",
     "@sanity/vision": "^3.11.1",
     "get-youtube-id": "^1.0.1",
@@ -23,7 +24,7 @@
     "react-icons": "^4.8.0",
     "react-is": "^18.2.0",
     "react-lite-youtube-embed": "^2.3.52",
-    "sanity": "^3.11.1",
+    "sanity": "^3.14.2",
     "styled-components": "^5.3.9"
   },
   "devDependencies": {

@@ -25,7 +25,7 @@ export default {
             type: 'slug',
             description: 'Eindeutiger Name für die Subpage ohne Leerzeichen',
             options: {
-                source: "title.de",
+                source: "headline.de",
                 maxLength: 96,
             },
         },

@@ -5,6 +5,7 @@ import {schemaTypes} from './schemas'
 import deskStructure from "./deskStructure";
 //import {theme} from 'https://themer.sanity.build/api/hues?default=c1c1bf;300&primary=787878;300&transparent=c1c1bf;300&positive=43d675;300&caution=fbd024;200&lightest=fafaf9&darkest=111'
 import {Logo} from "./studio/Logo";
+import {assist} from '@sanity/assist'
 
 export default defineConfig({
   name: 'default',
@@ -15,6 +16,7 @@ export default defineConfig({
   plugins: [deskTool({
     structure: deskStructure
   }), visionTool()],
+
   schema: {
     types: schemaTypes,
   },

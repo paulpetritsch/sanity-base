@@ -15,6 +15,10 @@ import youtube from '../objects/youtube'
 import newsletter from '../texts/newsletter'
 import cookie from '../texts/cookie'
 import error from '../texts/error'
+import cookieOption from '../objects/cookieOption'
+import externalLink from '../objects/externalLink'
+import socialMedias from '../objects/socialMedias'
+import internalLink from '../objects/internalLink'
 
 
 export const schemaTypes = [
@@ -34,5 +38,9 @@ export const schemaTypes = [
   youtube,
   newsletter,
   cookie,
-  error
+  error,
+  cookieOption,
+  externalLink,
+  socialMedias,
+  internalLink
 ]

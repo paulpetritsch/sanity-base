@@ -7,17 +7,12 @@ export default {
     name: "localeText",
     type: "object",
     title: 'Localized Text',
-    fieldsets: [
-        {
-            title: "Translations",
-            name: "translations",
-            options: { collapsible: true },
-        },
-    ],
+    options: {
+        columns: 2
+    },
     fields: supportedLanguages.map(lang => ({
         title: lang.title,
         name: lang.id,
         type: "text",
-        fieldset: lang.isDefault ? null : "translations",
     })),
 }
