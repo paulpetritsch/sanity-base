@@ -37,6 +37,11 @@ export default {
             hidden: true
         },
         {
+            name: 'maintenance',
+            title: 'Maintenance Mode',
+            type: 'boolean',
+        },
+        {
             name: 'address_name',
             title: 'Firmenname',
             description: 'Name der Organisation bzw. Addressenbezeichnung',
